@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PreEntrega1-DondánFacundo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <!--Web sobre películas. Para calificar, escribir reseñas, leer noticias sobre el cine,etc.-->
 <body>
     <header>
         <img src="Assets/Logo.png" alt="Logo de la web" class="logo-header"> <nav><a href="index.html">Flixtime</a></nav>
         <nav class="menu-header">
-         <a href="Perfil.html">Perfil</a>
-         <a href="listas.html">Listas</a>
-         <a href="noticias.html">Noticias</a>
-         <a href="watchlist.html">Watchlist</a>
+         <a href="pages/perfil.html">Perfil</a>
+         <a href="pages/listas.html">Listas</a>
+         <a href="pages/noticias.html">Noticias</a>
+         <a href="pages/watchlist.html">Watchlist</a>
          <a href="#">Reseñas</a>
          <img src="/Assets/Lupa.png" alt="Search" class="logo-search">
     
         </nav>
     </header>
-    <p class="actividad-seguidos-titulo">Actividad de seguidos</p>
-    <nav>
+    <main>
+     <h2 class="actividad-seguidos-titulo">Actividad de seguidos</h2>
+      <section>
        <div class="actividad-seguidos">
          <img src="/Assets/Movie.png" alt="Movie" class="Movie">
          <p>Usuario Fecha</p>
@@ -46,18 +47,29 @@
           <img src="/Assets/Movie.png" alt="MOvie" class="Movie">
           <p>Usuario Fecha</p>
         </div>
-         
-    </nav>
+      </section>   
+     
     
-
-    <p class="noticias-recientes">Noticias recientes</p>
-    <div class="noticias">
-        <img src="/Assets/News.png" alt="News" class="news">
-        <p>Título de la noticia</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+     <aside>
+       <h2 class="noticias-recientes">Noticias recientes</h2>
+       <div class="noticias">
+         <img src="/Assets/News.png" alt="News" class="news">
+         <p>Título de la noticia</p>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       </div>
+     </aside> 
+    </main>
     <footer class="footer">
-        <p>Sobre nosotros Ayuda Contactanos Terminos</p>
+        <nav>
+          <ul>
+            <li>Sobre nosotros</li>
+            <li>Ayuda</li>
+            <li>Contáctanos</li>
+            <li>Términos</li>
+          </ul>
+        </nav>
+        
+        
         <div>
          <img src="/Assets/Insta.png" alt="Insta" class="Insta">
          <img src="/Assets/Facebook.png" alt="Facebook" class="Facebook">

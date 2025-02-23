@@ -64,18 +64,31 @@ nav {
     color: purple;
     font-style: italic;
 }
-footer {
-    text-align: left;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 98%;
-    background-color: #f0f0f0;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
-footer p {
+
+main {
+
+    flex: 1;
+}
+footer {
     text-align: left;
     margin: 0;
     float: left;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
 }
 footer div {
     float: right;

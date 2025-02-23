@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body class="listas-body">
     <header>
-        <img src="Assets/Logo.png" alt="Logo de la web" class="logo-header"> <nav><a href="index.html">Flixtime</a></nav>
+        <img src="Assets/Logo.png" alt="Logo de la web" class="logo-header"> <nav><a href="../index.html">Flixtime</a></nav>
         <nav class="menu-header">
-         <a href="Perfil.html">Perfil</a>
+         <a href="perfil.html">Perfil</a>
          <a href="listas.html">Listas</a>
          <a href="noticias.html">Noticias</a>
          <a href="watchlist.html">Watchlist</a>
@@ -19,11 +19,14 @@
     
         </nav>
     </header>
-    <p class="listas-titulo">Guarda, crea y comparte listas de películas.</p>
-    <p class="crear-lista">Crear lista</p>
-    <p class="listas-populares">Listas populares</p>
 
-    <nav class="listas-populares-img">
+    <main>
+     <h2 class="listas-titulo">Guarda, crea y comparte listas de películas.</h2>
+     <p class="crear-lista">Crear lista</p>
+     
+     <section>
+       <h2 class="listas-populares">Listas populares</h2>
+       <div class="listas-populares-img">
         <div class="imagenes-de-listas">
             <img src="/Assets/listas.png" alt="listas" class="listas-img">
             <p>Título de lista</p>
@@ -44,7 +47,7 @@
             <img src="/Assets/listas.png" alt="listas" class="listas-img">
             <p>Título de lista</p>
         </div>
-    </nav>
+    </section>
     <p class="listas-guardadas-titulo">Listas guardadas</p>
     <nav class="listas-guardadas">
         <div class="lista-guardada">
@@ -72,8 +75,8 @@
             </div>
         </div>
     </nav>
-</body>
-<footer class="footer">
+  </main>
+ <footer class="footer">
     <p>Sobre nosotros Ayuda Contactanos Terminos</p>
     <div>
      <img src="/Assets/Insta.png" alt="Insta" class="Insta">
@@ -83,5 +86,6 @@
      <img src="/Assets/youtube.png" alt="youtube" class="youtube">
      <img src="/Assets/email.png" alt="email" class="email">
     </div>
-</footer>
+  </footer>
+</body>
 </html>
