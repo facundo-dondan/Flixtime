@@ -97,59 +97,54 @@ footer div {
 /* Perfil */
 
 .profile {
-    position: absolute;
+    position: relative;
     top: 150px;
     left: 100px;
+    width: 120px;
+    height: 120px;
 
 }
 .username {
-    position: absolute;
-    top: 140px;
-    left: 140px;
+    position: relative;
+    top: 10px;
+    left: 20px;
 }
 .edit-profile {
-    position: absolute;
-    top: 145px;
-    left: 270px;
+    position: relative;
+    top: 10px;
+    left: 40px;
     font-size: smaller;
     background-color: lightgrey;
+    padding: 5px;
+    border-radius: 5px;
 }
 .favoritas {
-    position: absolute;
-    top: 200px;
-    left: 70px;
+    position: relative;
+    top: 30px;
+    left: 20px;
     font-style: italic;
     color: goldenrod;
 }
-.fav-movies {
+.fav-movies, .recent-movies {
     width: 150px;
-    margin: 0 40px;
-    position: static;
+    margin: 10px;
 }   
-.top5 {
-    margin-top: 160px;
+.top5, .recent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 .actividad {
-    position: absolute;
-    top: 425px;
-    left: 70px;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
     color: goldenrod;
     font-style: italic;
     
 }
-.recent-movies {
-    display: flex;
-    width: 150px;
-    margin: 0 40px;
-    position: static;
-}
-.recent {
-    display: flex;
-    margin-top: 60px;
-    margin-bottom: 50px;
-}
 
-@media {max-width: 768px;} {
+@media (max-width: 768px) {  
     .profile {
         width: 80px;
         height: 80px;
@@ -162,14 +157,7 @@ footer div {
     }
 }
 
-@media {max-width: 480px;} {
-    .profile {
-        width: 60px;
-        height: 60px;
-    }
-    .fav-movies, .recent-movies {
-        width: 100%;}
-}
+
 
 
 
