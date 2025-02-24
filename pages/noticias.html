@@ -11,17 +11,33 @@
 </head>
 <body>
     <header>
-        <img src="/assets/Logo.png" alt="logo de la web" class="logo-header">
-        <nav><a href="../index.html">Flixtime</a></nav>
-        <nav>
-            <a href="perfil.html">Perfil</a>
-            <a href="listas.html">Listas</a>
-            <a href="noticias.html">Noticias</a>
-            <a href="watchlist.html">Watchlist</a>
-            <a href="#">Reseñas</a>
-            <img src="/assets/Lupa.png" alt="search" class="logo-search">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/Logo.png" alt="Logo de la web" class="logo-header" width="50">
+                    Flixtime
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="perfil.html">Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="watchlist.html">Watchlist</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Reseñas</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <img src="../assets/Lupa.png" alt="Buscar" class="logo-search" width="25">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
+     </header>
+    
 
     <main>
         <h1 class="noticias-titulo">Noticias</h1>
