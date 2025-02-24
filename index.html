@@ -11,18 +11,34 @@
 </head>
 <!--Web sobre películas. Para calificar, escribir reseñas, leer noticias sobre el cine,etc.-->
 <body>
-    <header>
-        <img src="assets/Logo.png" alt="Logo de la web" class="logo-header"> <nav><a href="index.html">Flixtime</a></nav>
-        <nav>
-         <a href="pages/perfil.html">Perfil</a>
-         <a href="pages/listas.html">Listas</a>
-         <a href="pages/noticias.html">Noticias</a>
-         <a href="pages/watchlist.html">Watchlist</a>
-         <a href="#">Reseñas</a>
-         <img src="/assets/Lupa.png" alt="Search" class="logo-search">
-    
-        </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="/assets/Logo.png" alt="Logo de la web" class="logo-header" width="50">
+                Flixtime
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="perfil.html">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="listas.html">Listas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="watchlist.html">Watchlist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reseñas</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="/assets/Lupa.png" alt="Buscar" class="logo-search" width="25">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ </header>
+
     <main>
      <h2 class="actividad-seguidos-titulo">Actividad de seguidos</h2>
       <section>
