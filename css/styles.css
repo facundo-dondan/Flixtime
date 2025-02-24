@@ -97,22 +97,16 @@ footer div {
 /* Perfil */
 
 .profile {
-    position: relative;
-    top: 150px;
-    left: 100px;
+
     width: 100px;
     height: auto;
 
 }
 .username {
-    position: relative;
-    top: 10px;
-    left: 20px;
+   font-weight: bold;
 }
 .edit-profile {
-    position: relative;
-    top: 10px;
-    left: 40px;
+    
     font-size: smaller;
     background-color: lightgrey;
     padding: 5px;
