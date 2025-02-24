@@ -149,6 +149,28 @@ footer div {
     margin-bottom: 50px;
 }
 
+@media {max-width: 768px;} {
+    .profile {
+        width: 80px;
+        height: 80px;
+    } 
+    .username, .edit-profile {
+        font-size: 1rem;
+    }
+    .fav-movies, .recent-movies {
+        width: 80%;
+    }
+}
+
+@media {max-width: 480px;} {
+    .profile {
+        width: 60px;
+        height: 60px;
+    }
+    .fav-movies, .recent-movies {
+        width: 100%;}
+}
+
 
 
 /* Listas */
