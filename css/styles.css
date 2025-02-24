@@ -131,21 +131,24 @@ footer div {
 }
 .actividad {
     position: absolute;
+    top: 425px;
     left: 70px;
     color: goldenrod;
     font-style: italic;
+    
 }
 .recent-movies {
+    display: flex;
     width: 150px;
     margin: 0 40px;
     position: static;
 }
 .recent {
+    display: flex;
     margin-top: 60px;
+    margin-bottom: 50px;
 }
-.profile-body {
-    margin-bottom: 100px;
-}
+
 
 
 /* Listas */
@@ -226,9 +229,7 @@ footer div {
     color: purple;
     text-decoration: underline;
 }
-.news-body {
-    margin-bottom: 100px;
-}
+
 .news-article {
     display: inline-block;
     margin: 50px;
@@ -248,9 +249,7 @@ footer div {
 
  /* Watchlist */
 
- .watchlist-body {
-    margin-bottom: 100px;
- }
+ 
  .watchlist-titulo {
     font-size: 24px;
     font-family: Arial;
