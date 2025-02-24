@@ -144,10 +144,6 @@ footer div {
     
 }
 
-.profile-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
 @media (max-width: 768px) {  
     .profile {
