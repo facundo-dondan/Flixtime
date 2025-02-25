@@ -118,6 +118,7 @@ footer div {
     left: 20px;
     font-style: italic;
     color: goldenrod;
+    padding: 10px;
 }
 .fav-movies, .recent-movies {
     width: 150px;
