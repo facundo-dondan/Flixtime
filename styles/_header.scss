@@ -1,6 +1,6 @@
 @use "variables";
 
-nav {
+nav .navbar {
     background-color: variables.$primary-color;
     color: variables.$text-color;
 }
