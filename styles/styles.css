@@ -11,7 +11,8 @@ body {
 }
 
 nav {
-  color: goldenrod;
+  background-color: goldenrod;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

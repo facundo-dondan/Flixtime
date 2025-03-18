@@ -1,5 +1,6 @@
 @use "variables";
 
 nav {
-    color: variables.$primary-color;
+    background-color: variables.$primary-color;
+    color: variables.$text-color;
 }
